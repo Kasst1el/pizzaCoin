@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"check",
+				"checkDeadUser"
+			],
+			[
+				"generate",
+				"generateAlcohol"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"sect",
+				"sect-text"
+			],
+			[
+				"affect",
+				"affect-bold"
+			],
+			[
+				"section",
+				"lp-section"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"brow",
+				"browserSync"
+			],
+			[
+				"create",
+				"createElement()\tReact"
+			],
+			[
+				"build",
+				"buildTableRow"
+			],
+			[
+				"bui",
+				"buildTableRow"
+			],
+			[
+				"pro",
+				"proptypes"
+			],
+			[
+				"un",
+				"unshift"
+			],
+			[
+				"anime",
+				"animationFrames"
+			],
+			[
+				"anima",
+				"animationFrames"
+			],
+			[
+				"tra",
+				"translateX()"
+			],
+			[
+				"genera",
+				"generateLine"
+			],
+			[
+				"ano",
+				"animation-delay"
+			],
+			[
+				"animat",
+				"animation"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"con",
+				"counter()"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"animation-",
+				"animation-iteration-count"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"col",
+				"column-count"
+			],
+			[
+				"v",
+				"visibility"
+			],
+			[
+				"column",
+				"column-count"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"j",
+				"justify-content"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"img",
+				"imgSrcArray\tproperty"
+			],
+			[
+				"Comp",
+				"Component\talias"
+			],
+			[
+				"an",
+				"animNext\tmethod"
+			],
+			[
+				"type",
+				"typeof\tkeyword"
+			],
+			[
+				"stly",
+				"styleUrls\tproperty"
+			],
+			[
+				"show",
+				"showCount\tproperty"
+			],
+			[
+				"Br",
+				"BrowserAnimationsModule\talias"
+			],
+			[
+				"st",
+				"styles\tproperty"
+			],
+			[
+				"tem",
+				"template\tproperty"
+			],
+			[
+				"Form",
+				"FormsModule\talias"
+			],
+			[
+				"Mo",
+				"ModuleWithProviders\talias"
+			],
+			[
+				"eleme",
+				"ElementRef\talias"
+			],
+			[
+				"Carousel",
+				"CarouselConfig\tclass"
+			],
+			[
+				"elem",
+				"ElementRef\talias"
+			],
+			[
+				"screen",
+				"screenArray\tparameter"
+			],
+			[
+				"Car",
+				"CarouselItem\talias"
+			],
+			[
+				"image",
+				"imageSrc\tparameter"
+			],
+			[
+				"Im",
+				"ImageDataService\talias"
+			],
+			[
+				"i",
+				"imageDataService\tproperty"
+			],
+			[
+				"Image",
+				"ImageData\talias"
+			],
+			[
+				"In",
+				"Injectable\talias"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"wh",
+				"whsc\twhite-space-collapse"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"Main",
+				"mainMenuService\tparameter"
+			],
+			[
+				"temp",
+				"template\tproperty"
+			],
+			[
+				"news",
+				"newsItem\tproperty"
+			],
+			[
+				"nes",
+				"NewsItem\talias"
+			],
+			[
+				"News",
+				"NewsListService\talias"
+			],
+			[
+				"imp",
+				"implements\tkeyword"
+			],
+			[
+				"get",
+				"getNewsList\tmethod"
+			],
+			[
+				"getNews",
+				"getNewsList\tmethod"
+			],
+			[
+				"Ac",
+				"ActivatedRoute\talias"
+			],
+			[
+				"cons",
+				"constructor\tkeyword"
+			],
+			[
+				"Rou",
+				"RouterModule\talias"
+			],
+			[
+				"M",
+				"modClass\tproperty"
+			],
+			[
+				"class",
+				"classList\tlet"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"Link",
+				"LinkButtonComponent\talias"
+			],
+			[
+				"style",
+				"styleUrls\tproperty"
+			],
+			[
+				"tans",
+				"transition"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"trnas",
+				"transition"
+			],
+			[
+				"ge",
+				"getHeroes\tmethod"
+			],
+			[
+				"hero",
+				"heroService\tproperty"
+			],
+			[
+				"Hero",
+				"HeroService\talias"
+			],
+			[
+				"Heroes",
+				"HeroesComponent\talias"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Volumes/Stuff/WebServer/beerpost/main.js",
+			"settings":
+			{
+				"buffer_size": 4457,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/Stuff/WebServer/beerpost/index.html",
+			"settings":
+			{
+				"buffer_size": 1215,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/Stuff/WebServer/beerpost/style.css",
+			"settings":
+			{
+				"buffer_size": 1566,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 165.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Stuff/WebServer/beerpost"
+	],
+	"file_history":
+	[
+		"/Volumes/Stuff/WebServer/beerpost/index.html",
+		"/Volumes/Stuff/WebServer/beerpost/style.css",
+		"/Volumes/Stuff/WebServer/beerpost/main.js",
+		"/Volumes/Stuff/WebServer/pizzaico/gulpfile.js",
+		"/Volumes/Stuff/WebServer/pizzaico/app/css/normalize.css",
+		"/Volumes/Stuff/WebServer/pizzaico/dist/fonts/Code Pro Black LC.css",
+		"/Volumes/Stuff/WebServer/pizzaico/app/sass/fonts.sass",
+		"/Volumes/Stuff/WebServer/pizzaico/dist/index.html",
+		"/Volumes/Stuff/WebServer/pizzaico/app/sass/what.sass",
+		"/Volumes/Stuff/WebServer/bas_case/gulpfile.js",
+		"/Volumes/Stuff/WebServer/pizzaico/app/index.html",
+		"/Volumes/Stuff/WebServer/eccentex/gulpfile.js",
+		"/Volumes/Stuff/WebServer/pizzaico/package-lock.json",
+		"/Volumes/Stuff/WebServer/pizzaico/package.json",
+		"/Users/mikhaylo/Desktop/docker/package.json",
+		"/Users/mikhaylo/Desktop/docker/server.js",
+		"/Users/mikhaylo/Desktop/docker/Dockerfile",
+		"/Volumes/Stuff/WebServer/prof-it/dist/index.html",
+		"/private/var/folders/99/4d6tfp8s56b21zz1yfy_h33m0000gn/T/fz3temp-2/index.html",
+		"/Users/mikhaylo/Desktop/lessons/main.js",
+		"/Users/mikhaylo/Downloads/Telegram Desktop/photo_2017-08-28_11-13-00.jpg",
+		"/Users/mikhaylo/Desktop/lessons/index.html",
+		"/Volumes/Stuff/WebServer/ang-portfolio/package.json",
+		"/Volumes/Stuff/WebServer/game/js/core/canvas.module.js",
+		"/Volumes/Stuff/WebServer/game/index.html",
+		"/Volumes/Stuff/WebServer/game/css/style.css",
+		"/Volumes/Stuff/WebServer/game/js/object/grass.object.js",
+		"/Volumes/Stuff/WebServer/game/js/object/road.object.js",
+		"/Volumes/Stuff/WebServer/game/js/object/basic.object.js",
+		"/Volumes/Stuff/WebServer/game/js/core/game.module.js",
+		"/Volumes/Stuff/WebServer/game/js/app.js",
+		"/Volumes/Stuff/WebServer/game/app.js",
+		"/Volumes/Stuff/WebServer/game/js/object/example.object.js",
+		"/Volumes/Stuff/WebServer/game/js/core/game.js",
+		"/Volumes/Stuff/WebServer/game/js/core/app.js",
+		"/Volumes/Stuff/WebServer/game/js/assets/_module.js",
+		"/Volumes/Stuff/WebServer/game/js/core/bit.service.js",
+		"/Volumes/Stuff/WebServer/game/js/core/canvas.module.ks",
+		"/Volumes/Stuff/WebServer/game/js/assets/autobahn.js",
+		"/Volumes/Stuff/WebServer/bitspulse/js/assets/_module.js",
+		"/Volumes/Stuff/WebServer/bitspulse/js/interface/heart.js",
+		"/Volumes/Stuff/WebServer/bitspulse/css/style.css",
+		"/Volumes/Stuff/WebServer/bitspulse/js/app.js",
+		"/Volumes/Stuff/WebServer/bitspulse/index.html",
+		"/Volumes/Stuff/WebServer/bitspulse/js/interface/message.js",
+		"/Volumes/Stuff/WebServer/bitspulse/js/core/app.js",
+		"/Volumes/Stuff/Work File/bitpulse/beatspulse/css/style.css",
+		"/Volumes/Stuff/WebServer/bitspulse/css/media.css",
+		"/Volumes/Stuff/WebServer/bitspulse/css/fonts.css",
+		"/Volumes/Stuff/WebServer/zhiva-lp/css/media.css",
+		"/Volumes/Stuff/Shit Here/Sublime Project's/game.sublime-project",
+		"/Volumes/Stuff/WebServer/game/package.json",
+		"/Volumes/Stuff/WebServer/game/src/index.js",
+		"/Volumes/Stuff/WebServer/test/js/assets/_module.js",
+		"/Volumes/Stuff/WebServer/test/js/interface/message.js",
+		"/Volumes/Stuff/WebServer/test/js/core/bit.service.js",
+		"/Volumes/Stuff/WebServer/test/js/core/app.js",
+		"/private/var/folders/99/4d6tfp8s56b21zz1yfy_h33m0000gn/T/fz3temp-2/about.php",
+		"/Users/mikhaylo/Desktop/unlocked.svg",
+		"/Volumes/Stuff/WebServer/test/index.html",
+		"/Volumes/Stuff/WebServer/test/js/assets/autobahn.js",
+		"/Users/mikhaylo/Desktop/autobahn.min.js",
+		"/private/var/folders/99/4d6tfp8s56b21zz1yfy_h33m0000gn/T/fz3temp-2/media.css",
+		"/Volumes/Stuff/WebServer/inevitable/css/style.css",
+		"/Volumes/Stuff/WebServer/inevitable/js/index.js",
+		"/Volumes/Stuff/WebServer/inevitable/js/main.js",
+		"/Volumes/Stuff/WebServer/inevitable/index.html",
+		"/Volumes/Stuff/WebServer/inevitable/cabinet.html",
+		"/Users/mikhaylo/PhpstormProjects/RS/frontend/web/gesign/rs_14_12_16/cabinet/index.html",
+		"/Users/mikhaylo/PhpstormProjects/RS/frontend/web/gesign/rs_14_12_16/cabinet/profile.html",
+		"/Users/mikhaylo/Desktop/work/beatspulse/heart-step.svg",
+		"/Volumes/Stuff/WebServer/beatspulse/css/style.css",
+		"/Volumes/Stuff/WebServer/beatspulse/css/media.css",
+		"/Volumes/Stuff/WebServer/beatspulse/js/svg_loader.js",
+		"/Volumes/Stuff/WebServer/beatspulse/game.html",
+		"/Volumes/Stuff/WebServer/beatspulse/index.html",
+		"/Volumes/Stuff/WebServer/beatspulse/js/index.js",
+		"/Volumes/Stuff/WebServer/beatspulse/js/route.js",
+		"/Volumes/Stuff/WebServer/beatspulse/js/common.js",
+		"/Volumes/Stuff/WebServer/beatspulse/css/select2.css",
+		"/Volumes/Stuff/WebServer/beatspulse/img/heart_pulse.svg",
+		"/Volumes/Stuff/WebServer/beatspulse/js/require.js",
+		"/Users/mikhaylo/Desktop/work/beatspulse/assets/require.js",
+		"/Volumes/Stuff/WebServer/beatspulse/js/require.s",
+		"/Users/mikhaylo/Desktop/work/beatspulse/assets/normalize.css",
+		"/private/var/folders/99/4d6tfp8s56b21zz1yfy_h33m0000gn/T/fz3temp-2/home_main.js",
+		"/private/var/folders/99/4d6tfp8s56b21zz1yfy_h33m0000gn/T/fz3temp-2/index.php",
+		"/Volumes/Stuff/WebServer/dreammarket/contact.html",
+		"/Volumes/Stuff/WebServer/dreammarket/product.html",
+		"/Volumes/Stuff/WebServer/dreammarket/js/cart.js",
+		"/Volumes/Stuff/WebServer/dreammarket/js/common.js",
+		"/Volumes/Stuff/WebServer/dreammarket/css/media.css",
+		"/Volumes/Stuff/WebServer/dreammarket/cart.html",
+		"/Volumes/Stuff/WebServer/dreammarket/index.html",
+		"/Volumes/Stuff/WebServer/dreammarket/css/style.css",
+		"/Volumes/Stuff/WebServer/dreammarket/css/icons.css",
+		"/Volumes/Stuff/WebServer/dreammarket/category.html",
+		"/Users/mikhaylo/PhpstormProjects/ecopolis/css/media.css",
+		"/Volumes/Stuff/WebServer/dreammarket/js/product.js",
+		"/Volumes/Stuff/WebServer/dreammarket/js/contact.js",
+		"/Volumes/Stuff/WebServer/dreammarket/about.html",
+		"/Volumes/Stuff/WebServer/dreammarket/js/category.js",
+		"/Volumes/Stuff/WebServer/dreammarket/js/index.js",
+		"/Volumes/Stuff/WebServer/dreammarket/css/nouislider.css",
+		"/Volumes/Stuff/WebServer/dreammarket/js/nouislider.js",
+		"/Volumes/Stuff/WebServer/dreammarket/js/masonry.js",
+		"/Volumes/Stuff/WebServer/dreammarket/js/parallax.js",
+		"/Users/mikhaylo/Desktop/test/index.html",
+		"/Users/mikhaylo/Desktop/test/parallax.js",
+		"/Volumes/Stuff/WebServer/dreammarket/js/owl.carousel.js",
+		"/Users/mikhaylo/PhpstormProjects/ecopolis/css/common.css",
+		"/Users/mikhaylo/Downloads/Telegram Desktop/workspace/index.html",
+		"/Volumes/Stuff/WebServer/dreammarket/js/common.css",
+		"/Volumes/Stuff/WebServer/dreammarket/css/fonts.css",
+		"/Users/mikhaylo/Desktop/sk/header.tpl",
+		"/Users/mikhaylo/Desktop/«Каждый может быть порнозвездой».html",
+		"/Volumes/Stuff/Shit Here/Sublime Project's/angportfolio.sublime-project",
+		"/Users/mikhaylo/PhpstormProjects/VIP Club/frontend/web/design/js/sum-photo.js",
+		"/Users/mikhaylo/Desktop/ecopolis/man-user 2.svg",
+		"/Users/mikhaylo/PhpstormProjects/zarplata-prof/frontend/web/design/js/messages.js",
+		"/Volumes/Stuff/WebServer/ang-portfolio/src/app/app.module.ts",
+		"/Volumes/Stuff/WebServer/ang-portfolio/src/systemjs.config.js",
+		"/Volumes/Stuff/WebServer/ang-portfolio/src/app/mock-image-data.ts",
+		"/Volumes/Stuff/WebServer/ang-portfolio/src/app/carousel.component.html",
+		"/Volumes/Stuff/WebServer/ang-portfolio/src/app/carousel.component.ts",
+		"/Volumes/Stuff/WebServer/server/Serve/dist/index.html",
+		"/Volumes/Stuff/WebServer/ang-portfolio/src/app/carousel.component.js",
+		"/Volumes/Stuff/WebServer/ang-portfolio/src/app/carousel-item.ts"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"addUn",
+			"__price",
+			"box",
+			"title",
+			"#fff",
+			"4a4a4a",
+			"}",
+			"scr-trans",
+			"transition: $scr-trans",
+			"$scr",
+			"affect",
+			"fonts",
+			"1.1",
+			"90",
+			"\"/prof-it",
+			"set\"",
+			"word",
+			"define",
+			"непра",
+			"tiles",
+			"animationFrames",
+			"console.",
+			"100",
+			"stage",
+			"method",
+			"header",
+			"static",
+			"\n\t\t\t\t<div class=\"cab-form-box\">\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<label for=\"\">\n\t\t\t\t\t\t\tE-mail\n\t\t\t\t\t\t</label>\n\t\t\t\t\t\t<input type=\"text\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"cab-form-box\">\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<label for=\"\">\n\t\t\t\t\t\t\tТелефон\n\t\t\t\t\t\t</label>\n\t\t\t\t\t\t<input type=\"text\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>",
+			"{\n",
+			"\n.mp-head-subinfo {\n\t\n}",
+			"after",
+			"heartcount",
+			"form-group",
+			"mp-header-stage",
+			"mp-form-",
+			"placeholder",
+			"__signup",
+			"__signi",
+			"%);\n",
+			"mp-header-stage",
+			"start-bu",
+			"item",
+			"owl-elem-main",
+			"owlC",
+			"Город",
+			"\n\t\t<div class=\"form-group\">\n\t\t\t<input type=\"text\" placeholder=\"Имя\">\n\t\t</div>",
+			"\n\t\t\t\t\t\t\t\t<div class=\"cartstage-img\">\n\t\t\t\t\t\t\t\t\t<div class=\"cartstage-i",
+			"col-xs-9 col-md-4",
+			"cartstage-stat",
+			"%);",
+			"prodpage-",
+			"prodpage-info",
+			"pr-item-ctrl",
+			"side-filter-title",
+			"filter",
+			"point",
+			"appearance",
+			"sect-la",
+			"\n.",
+			"2016",
+			"watch",
+			"phone",
+			"wrap",
+			"Parallax",
+			"\n\n<div class=\"parallax-window\" data-parallax=\"scroll\" data-image-src=\"https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/G2YB72SKEG.jpg\"></div>",
+			"mp-paralax-wrap",
+			".scroll",
+			"scroll",
+			"pr",
+			"%);",
+			"buy",
+			"img",
+			"{\n",
+			"after",
+			"header",
+			"{\n",
+			"contact",
+			",\n",
+			"contact",
+			"sect",
+			"footer",
+			"icn",
+			"{\n",
+			"translate",
+			"header",
+			"child",
+			"%);",
+			"line",
+			"a",
+			"}\n",
+			"\n.header-menu li {\n\n}",
+			";\n",
+			"%);",
+			"\n\t\t\t\t\t\t<div class=\"header-logo\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>",
+			"carousel",
+			"bootstrap",
+			"css",
+			", ",
+			"h1",
+			"fonts/Lato-",
+			"js",
+			"style",
+			"css",
+			"string",
+			"empty",
+			">\n",
+			"NotFoundedComponent",
+			"animCount",
+			"transi",
+			"FooterComponent",
+			"browser",
+			"';\n",
+			"'));\n",
+			"NewsPageComponent",
+			"loadCh",
+			"AboutPageComponent",
+			"\n\t{\n\t\tid: 2,\n\t\tsrc: '/img/news-2s.png',\n\t},",
+			"illustration",
+			"\n\t{\n\t\tid: 0,\n\t\tsrc: '/img/news-1.png';\n\t}",
+			"view",
+			"li",
+			");\n",
+			",\n",
+			"\n\t{\n\t\tpath: 'newslist',\n\t\tcomponent: NewsListComponent\n\t}",
+			")\n",
+			"a",
+			"NewsListComponent",
+			" {"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Volumes/Stuff/WebServer/beerpost/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2924,
+								2924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1753.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Volumes/Stuff/WebServer/beerpost/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 454.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Volumes/Stuff/WebServer/beerpost/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1564,
+								1564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1417.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "beerpost.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"icons",
+				"css/icons.css"
+			],
+			[
+				"carousel",
+				"app/carousel.component.js"
+			],
+			[
+				"news-page",
+				"app/news-page.component.html"
+			],
+			[
+				"caro",
+				"app/carousel-item.ts"
+			],
+			[
+				"app.mod",
+				"app/app.module.ts"
+			],
+			[
+				"spinne",
+				"app/spinner.component.ts"
+			],
+			[
+				"news-list",
+				"app/news-list.component.ts"
+			],
+			[
+				"news-lis",
+				"app/news-list.component.ts"
+			],
+			[
+				"carosel",
+				"app/carousel.component.html"
+			],
+			[
+				"car",
+				"app/carousel.component.ts"
+			],
+			[
+				"form-gr",
+				"app/form-group.component.ts"
+			],
+			[
+				"conta",
+				"app/contact-page.component.ts"
+			],
+			[
+				"news-l",
+				"app/news-list.component.html"
+			],
+			[
+				"app.module.ts",
+				"app/app.module.ts"
+			],
+			[
+				"app-mod",
+				"app/app-routing.module.ts"
+			],
+			[
+				"news-",
+				"app/news-item.component.ts"
+			],
+			[
+				"inpu",
+				"app/input.component.ts"
+			],
+			[
+				"ham",
+				"app/hamburger.component.ts"
+			],
+			[
+				"app.c",
+				"app/app.component.html"
+			],
+			[
+				"carous",
+				"app/carousel.component.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

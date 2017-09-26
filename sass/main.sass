@@ -1,0 +1,713 @@
+$c-dark: 	#4a4a4a
+$c-white: 	#fff
+$c-blue: 	#0076C6
+
+$affect-light:  Affect-Light
+$affect-bold:   Affect-Bold
+$affect: 		Affect
+
+$code-pro-bold-lc:	Code-Pro-Bold-LC
+
+=clear-fix
+	&:after
+		content: ""
+		display: block
+		clear: both
+
+=vertical-center
+	position: absolute
+	top: 50%
+	transform: translateY(-50%)
+
+=scr-trans
+	transition: .55s ease-out
+
+=anim-trans
+	transition: .75s cubic-bezier(0.165, 0.84, 0.44, 1)
+
+=sect-text
+	font-size: 20px
+	line-height: 30px
+	text-transform: uppercase
+
+h1, h2, h3, h4, h5, h6, p, ul, li
+	margin: 0
+	padding: 0
+
+*, *:after, *:before
+	box-sizing: border-box
+
+.container
+	width: 1176px
+	margin: 0 auto
+	padding: 0 15px
+	position: relative
+
+body
+	background-color: #F6F6F6
+	background-image: url('../images/background-img.png')
+	background-position: center
+	background-attachment: fixed
+	font-family: $affect
+
+.form
+	&-group
+		color: $c-white
+		&.__dark
+			color: $c-dark
+		& label
+			font-size: 15px
+			font-family: $affect
+			display: block
+			text-align: center
+			margin-bottom: 10px
+			text-transform: uppercase
+	&-control
+		=placeholder-style 
+			color: currentColor
+		height: 46px
+		border-radius: 23px
+		color: inherit
+		border-width: 3px
+		border-color: currentColor
+		border-style: solid
+		padding: 0 25px
+		display: block
+		width: 100%
+		outline: none
+		font-size: 15px
+		background-color: transparent
+		text-transform: uppercase
+		-webkit-appearance: none
+		text-align-last: center
+		text-align: center
+		&::-webkit-input-placeholder
+			+placeholder-style
+		&:-moz-placeholder
+			+placeholder-style
+		&::-moz-placeholder
+			+placeholder-style
+		&:-ms-input-placeholder
+			+placeholder-style
+	&-checkbox
+		vertical-align: middle
+		position: relative
+		input
+			display: none
+		&:before
+			content: ""
+			display: inline-block
+			width: 30px
+			height: 30px
+			border: 3px solid currentColor
+			border-radius: 10px
+			margin-right: 10px
+			vertical-align: middle
+			cursor: pointer
+		&.__checked
+			&:after
+				content: ""
+				display: block
+				position: absolute
+				left: 0
+				top: 0
+				width: 10px
+				height: 10px
+				background: red
+		a
+			color: currentColor
+
+		
+
+
+
+header
+	position: fixed
+	top: 45px
+	left: 0
+	width: 100vw
+	z-index: 1000
+	color: $c-white
+	&.__colorful 
+		color: $c-dark
+		.header-logo__image
+			&__white
+				visibility: hidden
+				opacity: 0
+			&__colorful
+				visibility: visible
+				opacity: 1
+
+.header
+	&-body
+		height: 63px
+	&-logo
+		+vertical-center
+		left: 0
+		height: 63px
+		&__image
+			+scr-trans
+			position: absolute
+			left: 0
+			&__colorful
+				visibility: hidden
+				opacity: 0
+	&-menu
+		+vertical-center
+		height: auto
+		right: 0
+		ul
+			list-style: none
+			li
+				display: inline-block
+				margin: 0 13px
+				a
+					+scr-trans
+					font-size: 15px
+					text-transform: uppercase
+					text-decoration: none
+					color: inherit
+		&__lang-block
+			+vertical-center
+			+scr-trans
+			left: 100%
+			border-left: 1px solid $c-white
+			padding: 5px 0 5px 15px
+			text-transform: uppercase
+			header.__colorful &
+				border-color: $c-dark
+
+.section-label
+	font-family: $affect-bold
+	color: inhernit
+	text-transform: uppercase
+	margin-bottom: 30px
+	& h2
+		font-size: 60px
+	
+	
+
+
+
+.lp-section
+	min-height: 100vh
+	position: relative
+	color: $c-dark
+	padding-top: 140px
+	overflow: hidden
+	&.__colorful
+		background-image: linear-gradient(45deg, #00BEB2, #0076C6)
+		background-size: cover
+		background-position: center
+		color: $c-white
+
+	&__first
+		&__text
+			max-width: 570px
+			margin-bottom: 110px
+			& p
+				+sect-text
+		&__price
+			cursor: pointer
+			& p
+				+sect-text
+				img
+					vertical-align: middle
+					margin-left: 5px
+			&-value
+				font-size: 120px
+				text-transform: uppercase
+
+		&__floating
+			&__wrap
+				top: 0
+				left: 0
+				position: absolute
+				width: 100vw
+				height: 100vh
+				transform: scale(1.25)
+				// filter: blur(3px)
+				opacity: 0
+				transition: 1.1s ease-out
+				&.__active
+					transform: scale(1)
+					// filter: blur(0)
+					opacity: 1
+			&__element
+				position: absolute
+				width: 120px
+				height: 120px
+				background-position: center
+				background-repeat: no-repeat
+
+
+
+	&__second
+		&__wrap
+			max-width: 950px
+			margin: 0 -15px
+			display: flex
+		&__point
+			width: 25%
+			padding: 0 15px
+			& p
+				+anim-trans
+				font-size: 21px
+				text-transform: uppercase
+				font-family: affect-bold
+				text-align: center
+				&.--animate
+					opacity: 0
+		&__image
+			+anim-trans
+			height: 160px
+			background-position: center
+			background-repeat: no-repeat
+			margin-bottom: 30px
+			&.--animate
+				opacity: 0
+				transform: translateX(-50px)
+
+
+	&__third
+		&__text
+			width: 820px
+			p
+				+sect-text
+				margin-bottom: 30px
+		&__lines
+			position: absolute
+			left: 0
+			width: 100%
+			height: 100%
+
+
+	&__fourth
+		&__video
+			&-wrap
+				width: 760px
+				padding: 0 15px
+				margin: 0 auto
+			&-box
+				+anim-trans
+				margin-bottom: 40px
+				&.--animate
+					transform: translateY(-30px)
+					opacity: 0
+		&__text
+			+sect-text
+			+anim-trans
+			font-size: 18pxв 
+			width: 420px
+			margin: 0 auto
+			font-family: $affect-bold
+			background: linear-gradient(to right, #00BEB2, #0076C6)
+			-webkit-background-clip: text
+			-webkit-text-fill-color: transparent
+			&.--animate
+				transform: translateY(-30px)
+				opacity: 0
+
+	&__fifth
+		&__label
+			&-desc
+				position: absolute
+				right: 0
+				top: 20px
+				width: 450px
+				p
+					font-size: 13px
+					font-family: $affect-bold
+					letter-spacing: 2px
+
+		&__timer
+			&-wrap
+				+clear-fix
+				margin: 0 -35px 60px 
+			&-box
+				padding: 0 35px
+				float: left
+				h3
+					font-family: $code-pro-bold-lc
+					font-size: 115px
+				span
+					font-size: 25px
+					font-family: $affect-bold
+					letter-spacing: 2px
+
+		&__info
+			&-wrap
+				+clear-fix
+				margin: 0 -30px 60px
+				width: 1000px
+			&-box
+				+clear-fix
+				padding: 0 30px
+				width: 50%
+				float: left
+			&-number
+				font-family: $affect-bold
+				font-size: 40px
+				letter-spacing: 2.5px
+				float: left
+				width: 170px
+			&-text
+				font-size: 18px
+				margin-top: 6px
+				text-transform: uppercase
+				float: left
+				padding-left: 20px
+				width: calc(100% - 170px)
+
+		&__share
+			+clear-fix
+			&-wrap
+				+clear-fix
+				width: 1000px
+				margin-bottom: 30px
+			&__social
+				&-box
+					+clear-fix
+					width: 400px
+					float: left
+				&-item
+					width: 25%
+					float: left
+					margin-bottom: 20px
+				&-text
+					font-size: 18px
+					letter-spacing: 2px
+					text-transform: uppercase
+			&__email
+				&-box
+					+clear-fix
+					width: 600px
+					float: left
+				&-form
+					float: left
+					padding-right: 20px
+					width: 360px
+					
+				&-text
+					float: left
+					width: 240px
+					p
+						font-size: 18px
+						letter-spacing: 2px
+						text-transform: uppercase
+
+		&__subinfo
+			margin-bottom: 60px
+			p
+				text-align: center
+				font-size: 22px
+				text-transform: uppercase
+
+	&__sixth
+		height: calc(100vh - 300px)
+		&__info
+			&-wrap
+				+vertical-center
+				left: 400px
+			&-point
+				+anim-trans
+				padding: 10px 0
+				display: flex
+				width: 600px
+				align-item: center
+				transition: .375s
+				&.--animate
+					transform: translateX(-50px)
+					opacity: 0
+				&:hover
+					padding: 30px 0
+				&:hover &-price
+					color: $c-blue
+				&:hover &-image__inner
+					border-color: $c-blue
+			&-point:last-of-type &-image:before
+				display: none
+
+			&-price
+				+sect-text
+				float: left
+				align-self: center
+				width: 130px
+				transition: .225s
+			&-image
+				width: 110px
+				align-self: center
+				position: relative
+				height: 100%
+				&__inner
+					width: 55px
+					height: 55px
+					position: absolute
+					top: 50%
+					left: 50%
+					transform: translate(-50%, -50%)
+					border-radius: 50%
+					background-position: center
+					background-size: cover
+					border: 10px solid $c-dark
+					transition: .225s, width .375s ease-out, height .375s ease-out
+					will-change: width, height
+					&:hover
+						z-index: 10
+						width: 290px
+						height: 290px
+				&:before
+					+anim-trans
+					content: ""
+					display: block
+					position: absolute
+					top: 50%
+					left: calc(50% - 5px)
+					width: 10px
+					height: 110px
+					border-radius: 10px
+					background: $c-dark
+				&.--animate:before
+					height: 0
+				
+			&-text
+				flex: 1
+				align-self: center
+				+sect-text
+
+	&__seventh
+		&__info
+			&-wrap
+				margin-bottom: 60px
+			&-item
+				+anim-trans
+				margin-bottom: 25px
+				&.--animate
+					transform: translateX(-50px)
+					opacity: 0
+				h3
+					font-size: 24px
+					text-transform: uppercase
+					font-family: $affect-bold
+				p
+					font-size: 18px
+					font-family: $affect-bold
+					text-transform: uppercase
+
+		&__image
+			&-box
+				+vertical-center
+				right: 0
+	
+	&__eight
+		&__team
+			&-wrap
+				+clear-fix
+				width: 800px
+
+			&-box
+				+anim-trans
+				width: 33%
+				float: left
+				text-align: center
+				margin-bottom: 45px
+				&.--animate
+					transform: translateY(50px)
+					opacity: 0
+
+			&-image
+				width: 125px
+				height: 125px
+				margin: 0 auto 20px
+				background-color: $c-white
+				background-position: center
+				background-size: cover
+				border-radius: 50%
+			&-text
+				text-align: center
+				padding: 0 30px
+				h4
+					font-size: 20px
+					text-transform: uppercase
+					font-family: $affect-bold
+					margin-bottom: 20px
+					letter-spacing: 2px
+				p
+					font-size: 13px
+					font-family: $affect-bold
+					text-transform: uppercase
+					letter-spacing: 2px
+
+	&__ninth
+		&__sales
+			&-wrap
+				+clear-fix
+				width: 1000px
+				margin: 0 -23px
+			&-box
+				float: left
+				width: 20%
+				padding: 0 23px
+				+anim-trans
+				&.--animate
+					transform: translateY(50px)
+					opacity: 0
+
+				h4
+					font-family: $code-pro-bold-lc
+					font-size: 80px
+				p
+					font-family: $affect-bold
+					font-size: 19px
+					letter-spacing: 1.5px
+
+	&__tenth
+		&__form
+			&-wrap
+				+clear-fix
+				width: 1000px
+				margin: 0 -13px 90px
+			&-box
+				width: 25%
+				float: left
+				margin-bottom: 30px
+				padding: 0 13px
+			&-rightcheck
+				clear: both
+				padding: 0 13px
+				& .form-group
+					& label
+						text-align: left
+			&-button
+				margin-top: 26px
+				display: block
+				width: 100%
+				height: 46px
+				border-radius: 23px
+				color: $c-white
+				text-transform: uppercase
+				text-align: center
+				font-size: 15px
+				font-family: $affect-bold
+				border: none
+				outline: none
+				cursor: pointer
+				background-color: #00BEB2
+				background-image: linear-gradient(to right, #00BEB2, #0076C6)
+				background-repeat: no-repeat
+				transition: .6s linear
+				&:hover
+					background-position: 100px 0
+
+		&__share
+			&-wrap
+				+clear-fix
+				width: 440px
+			&-box
+				float: left
+				width: 25%
+			&-text
+				margin-bottom: 20px
+				p
+					font-size: 25px
+					letter-spacing: 1.6px
+					text-transform: uppercase
+					font-family: $affect-bold
+	
+
+	&__eleventh
+		&__quest
+			&-wrap
+				+clear-fix
+				width: 1050px
+				margin: 0 -25px
+			&-box
+				width: 50%
+				float: left
+				position: relative
+				padding: 0 25px
+
+			&-inner
+				padding-top: 66%
+				position: relative
+				border: 3px solid $c-blue
+				border-radius: 10px
+				background-color: $c-white
+				cursor: pointer
+				transition: .3s ease-out
+				&:hover &__image
+					opacity: 1
+					visibility: visible
+				&__text
+					position: absolute
+					top: 50%
+					left: 50%
+					transform: translate(-50%, -50%)
+					font-size: 85px
+					color: $c-blue
+					text-transform: uppercase
+				&__image
+					position: absolute
+					top: 0
+					left: 0
+					width: 100%
+					height: 100%
+					background-position: center
+					background-size: cover
+					opacity: 0
+					visibility: hidden
+					transition: .3s		
+
+			&-secret
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				visibility: hidden
+				opacity: 0
+				transition: .3s ease-out 
+
+				&__inner
+					position: absolute
+					top: 50%
+					left: 50%
+					transform: translate(-50%, -50%)
+					text-align: center
+					p
+						font-size: 25px
+						font-family: $affect-bold
+						text-transform: uppercase
+						margin-bottom: 30px
+				&__social
+					margin: 0 -30px
+					a
+						display: inline-block
+						margin: 0 13px
+
+			&-box__active &-inner__text,
+			&-box__active &-inner__image,
+			&-box__active:hover &-inner__image,
+				visibility: hidden
+				opacity: 0
+			&-box__active &-secret
+				visibility: visible
+				opacity: 1
+				color: inherit
+
+
+.bender-wrap
+	position: absolute
+	right: 0
+	bottom: -1000px
+	z-index: 2
+	transition: 1.1s ease-out
+	&.__fry
+		z-index: -1
+	& img
+	&.__active
+		bottom: -10px
+
+
+.--animate
+	transition: 0s
